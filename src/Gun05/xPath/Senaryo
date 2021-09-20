@@ -1,0 +1,23 @@
+1- https://www.saucedemo.com/  sitesini açın
+2- login işlemini yapınız.
+3- Sauce Labs Backpack  a tıklatın ve sepete ekletin.
+//div[text()="Sauce Labs Backpack"]
+//*[@id='add-to-cart-sauce-labs-backpack']
+
+4- Sonra geri dönün
+//*[text()='Back to products']
+5- Sauce Labs Bolt T-Shirt  a tıklatın ve sepete ekleyin.
+//*[text()='Sauce Labs Bolt T-Shirt']
+//*[@id='add-to-cart-sauce-labs-bolt-t-shirt']
+
+6- sepete tıklatın
+//div[@id='shopping_cart_container']
+
+7- CheckOut a tıklatın
+//button[@id='checkout']
+8- kullanıcı bilgilerini doldurup Continue ya tıklatın
+//input[@id='first-name']
+//*[@id='last-name']
+//*[@id='postal-code']
+9- Burada her bir eşyanın ücretlerinin toplamının aşağıdaki
+  Item total e eşit olup olmadığını Assert ile test ediniz.

@@ -1,0 +1,27 @@
+CSS Selector
+
+[id='email'] ya da #email olarak kullanilabilir.
+
+[class='editor_collections'] ya da .editor_collections
+
+* containing
+
+^ ile baslayan
+
+$ ile biten
+
+child - cocuk -- icindeki eleman
+
+sibling - kardes - ayni hizadaki eleman
+
++ ve ~ isaretleri  -- sibling elemani bulmak icin ayni ise yariyorlar
+
+> ve "bosluk birakmak"(space) child elemani bulmak icin ayni ise yariyorlar
+
+: not -- olmayan...
+
+:nth-child() -- parantez icine koydugumuz sayiya gore o siradaki child elemani aliyor..
+
+:nth-last-child() -- sondan sayarak o siradaki child elemani veriyor...
+
+:nth-of-type() -- basina koydugumuz tage gore o taglilerden o siradaki child elemani ver.
